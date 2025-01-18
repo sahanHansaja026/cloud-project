@@ -9,7 +9,7 @@ export default class footer extends Component {
         <footer className="footer">
           <img src={Food2} alt="food 2" />
           <div className="box">
-            Get connected with us on social networks:
+            Get connected with us on social networks
             <div className="col-md-12">
               <a
                 href="https://www.facebook.com"
