@@ -1,0 +1,142 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.row {
+  display: flex;
+}
+.col-md-4 {
+  margin-left: 75px;
+  padding: 20px;
+}
+/* Footer styling */
+.footer {
+  background-color: #363636;
+  color: #fff;
+  padding: 0px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: fit-content;
+}
+
+.footer h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  padding-left: 0;
+  background-color: transparent;
+}
+
+.footer ul li {
+  margin-bottom: -5px;
+  margin-left: -10px;
+  background-color: transparent;
+}
+.dec ul li {
+  margin-bottom: 10px;
+}
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ccc;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border: 0px;
+  margin-left: 0px;
+}
+hr {
+  color: #000000;
+}
+.social-media {
+  text-align: left;
+}
+.col-md-12{
+  margin-left: 400px;
+}
+.col-md-12 .fa {
+  padding: 2px;
+  font-size: 25px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border: 0px;
+  margin-left: 0px;
+}
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+.fa-twitter {
+  background: transparent;
+  color: white;
+}
+.fa-google {
+  background: transparent;
+  color: white;
+}
+
+.fa-linkedin {
+  background: transparent;
+  color: white;
+}
+
+.fa-youtube {
+  background: transparent;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: white;
+}
+.box{
+  display: flex;
+  font-size: 25px;
+  margin-left: 5px;
+}
+.under{
+  background-color: #2d2d2d;
+  width: 100%;
+  height: 50px;
+  color:white;
+  text-align: center;
+  position: absolute;
+  font-size: 25px;
+}
+.container2 {
+  position: relative;
+}
+
+.footer .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.footer img { 
+  width: 100%;
+  height: 300px;
+  opacity: 0.2;
+  position: absolute;
+  
+}

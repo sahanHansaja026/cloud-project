@@ -1,0 +1,107 @@
+.about {
+  display: flex;
+  color: white;
+}
+.intro {
+  flex-direction: column;
+}
+.intro h1 {
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  margin-left: 20px;
+}
+.with_image {
+  display: flex;
+}
+.with_image img {
+  width: 200px;
+  margin-top: -49px;
+}
+.with_image p {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 10px;
+  margin-left: -30px;
+}
+.comment input[type="email"] {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin-right: 25px;
+  display: block;
+}
+.comment input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin: 0px;
+  display: block;
+}
+
+.comment form {
+  width: 800px;
+  color: white;
+  margin-left: -200px;
+}
+.comment textarea {
+  width: 400px;
+  height: 55px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin: 0px;
+  display: block;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  margin: 0px;
+}
+.comment button {
+  width: 422px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.comment h3 {
+  margin-top: -52px;
+  color: aliceblue;
+  margin-bottom: -10px;
+  margin-left: 145px;
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.comment{
+  display: flex;
+}
+.messages{
+  flex-direction: column;
+  width: 550px;
+  height: 350px;
+  background-color:transparent;
+  margin-left: -300px;
+  color:rgb(9, 229, 60);
+  overflow-y: scroll;
+}
+.name{
+  font-size: 10px;
+  color:white;
+}
+.drop_message{
+  margin-top: -20px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
+}
