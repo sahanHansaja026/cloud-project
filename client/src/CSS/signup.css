@@ -1,0 +1,55 @@
+.signup {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.singup form {
+  width: 800px;
+  color: rgb(255, 255, 255);
+  display: contents;
+  flex-direction: column;
+}
+.signup input[type="text"] {
+  background-color: white;
+  width: 400px;
+  margin-left: 5px;
+  width: 400px;
+  height: 15px;
+}
+.signup input[type="email"] {
+  background-color: white;
+  width: 400px;
+  margin-left: 5px;
+  width: 400px;
+  height: 15px;
+}
+.signup input[type="password"] {
+  background-color: white;
+  width: 400px;
+  margin-left: 5px;
+  display: block;
+  border-radius: 5px;
+  width: 415px;
+  height: 30px;
+}
+.signup label{
+    display:block;
+}
+.form_method{
+    display: flex;
+}
+.singup a{
+    text-decoration:none;
+}
+.signup button{
+    width: 425px;
+    margin-left: 5px;
+}
+.signup img{
+    width: 600px;
+    height: 400px;
+    margin-right: 200px;
+}
+.signup .title{
+    font-size: 35px;
+}

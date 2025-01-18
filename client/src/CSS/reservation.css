@@ -1,0 +1,161 @@
+.container1 {
+  max-width: 600px;
+  margin-left: 25px;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 8px;
+  color:white;
+}
+body{
+    background-color: #000000;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: -15px;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  margin: 0px;
+}
+input[type="email"] {
+    width: 185px;
+    padding: 10px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    margin-right: 25px;
+    display: block;
+  }
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+.form_sub input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    margin-right: 25px;
+    display: block;
+  }
+textarea {
+  width: calc(100% - 22px);
+  height: 55px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+input[type="time"],
+input[type="date"] {
+  width: 105px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+input[type="number"] {
+    width: 105px;
+    padding: 10px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    margin-right:25px;
+    display: block;
+    height: 15px;
+  }
+form button {
+  background-color: #646464;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2d2d2d;
+}
+.reservation {
+  background-color: #000000;
+  display: flex;
+}
+.form_sub {
+  display: flex;
+}
+.form_sub input[type="time"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin: 0px auto;
+  height: 15px;
+  margin-right:25px;
+}
+.form_sub input[type="date"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  margin-left: 5px ;
+  height: 15px;
+}
+.form_sub label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+select {
+    padding: 8px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  /* Optional style for hover and focus states */
+  select:focus,
+  select:valid {
+    background-color: #5ed17d;
+  }
+  input[type="text"]:focus,
+  input[type="text"]:valid,
+  input[type="email"]:focus,
+  input[type="email"]:valid,
+  input[type="number"]:focus,
+  input[type="number"]:valid,
+  input[type="date"]:focus,
+  input[type="date"]:valid,
+  input[type="time"]:focus,
+  input[type="time"]:valid,
+  textarea:focus,
+  textarea:valid {
+    background-color: #5ed17d;
+  }
+  .reservation img{
+    margin-top: 105px;
+    width: 700px;
+    height: 400px;
+  }

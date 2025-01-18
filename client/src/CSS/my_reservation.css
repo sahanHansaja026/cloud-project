@@ -1,0 +1,44 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.97);
+  transition: 0.3s;
+  width: 200px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin-left: 30px;
+}
+.slideshow{
+    display: flex;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardcontainer {
+  padding: 2px 16px;
+}
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 200px;
+  height: 200px;
+}
+.manue {
+  color: white;
+}
+.manue h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.fas{
+    color:brown;
+    font-size: 15px;
+}
+.fa-pepper-hot{
+    color: brown;
+}
