@@ -123,7 +123,7 @@ project-root/
 - Created the **Home Page** and **Search Functionality** in the backend.
 - Collaborated with other members to troubleshoot and refine features.
 
-### Member 3: [Name]
+### Member 3: 22UG2-0201 Isitha Nawoda
 - Developed the **Feedback Section**, including the schema and routes for handling comments.
 - Styled the **About Page** and worked on the **Footer** section.
 - Assisted in setting up the MongoDB database and models.
